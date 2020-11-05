@@ -30,7 +30,7 @@ import static org.java_websocket.WebSocket.READYSTATE.OPEN;
  */
 public class RTCSignalClient {
     private static final String TAG = "RTCSignalClient";
-    private static  final  String WS_URL = "ws://127.0.0.1:8099";//信令服务器地址
+    private static  final String WS_URL = "ws://127.0.0.1:8099";//信令服务器地址
     public static final String SIGNAL_TYPE_PING = "ping";//连接
     public static final String SIGNAL_TYPE_PONG = "pong";//连接
     public static final String SIGNAL_TYPE_CONNECT = "connect";//连接
