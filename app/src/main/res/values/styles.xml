@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--弹窗样式-->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景阴影-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!--弹窗动画  底出底进-->
+    <style name="dialog_bottom_top" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_top_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_exit</item>
+    </style>
+</resources>
